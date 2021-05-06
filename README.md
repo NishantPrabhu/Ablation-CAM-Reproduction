@@ -1,7 +1,7 @@
 # Ablation-CAM Reproduction 
 Reproduction of Ablation-CAM \[[paper](https://ieeexplore.ieee.org/document/9093360)\], a technique to visualize and interpret features learnt by Convolutional Neural Networks (CNNs).
 
-# Quickstart
+## Quickstart
 The `main.py` file facilitates running of all the functionality offered by the code. It accepts several command line arguments, which are explained below.
 
     - `--task`: Pass `train` to finetune a model on CIFAR-10 dataset or `viz` to visualize the localization maps of few images from a specified dataset.
@@ -38,7 +38,7 @@ python3 main.py --task train                        \
                 --num-batches 1
 ```
 
-# CIFAR-10 fine-tuned models
+## CIFAR-10 fine-tuned models
 I have fine-tuned some models on CIFAR-10 to perform visualization on simpler images compared to ImageNet (classifier modified to have 10 outputs and trained for 10 epochs, images resized to 128 because Ablation-CAM fails on small images sizes). Each model achieved close to 93% validation accuracy. The trained weights can be found below.
 
     - VGG-16    : [Download](https://drive.google.com/file/d/1OqpowfeUzBZfOi08b1gdA8LAUvzzllwz/view?usp=sharing)
