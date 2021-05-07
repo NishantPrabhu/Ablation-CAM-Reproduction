@@ -40,7 +40,7 @@ python3 main.py --task viz                                    \
                 --method channel                              \
                 --final-activation relu                       \
                 --clf-activation softmax                      \
-                --model-ckpt outputs/models/vgg.ckpt     \
+                --model-ckpt outputs/models/vgg.ckpt          \
                 --num-batches 1
 ```
 
