@@ -2,8 +2,8 @@
 Reproduction of Ablation-CAM \[[paper](https://ieeexplore.ieee.org/document/9093360)\], a technique to visualize and interpret features learnt by Convolutional Neural Networks (CNNs).
 
 <p float="left">
-  <img src="images/resnet50_channel_softmax_22-17_06-05-2021.png" alt="ResNet-50 localization maps on ImageNet" width="40%" display="inline-block" />
-  <img src="images/resnet18_channel_softmax_22-15_06-05-2021.png" alt="ResNet-18 localization maps on CIFAR-10" width="40%" display="inline-block" />
+  <img src="images/resnet50_channel_softmax_22-17_06-05-2021.png" alt="ResNet-50 localization maps on ImageNet" width="50%" display="inline-block" padding-right="10px" />
+  <img src="images/resnet18_channel_softmax_22-15_06-05-2021.png" alt="ResNet-18 localization maps on CIFAR-10" width="50%" display="inline-block" padding-left="10px" />
 </p>
 
 ## Quickstart
