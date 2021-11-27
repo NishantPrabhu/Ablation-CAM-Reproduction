@@ -1,5 +1,5 @@
 # \[Re\] Ablation-CAM 
-Reproduction of Ablation-CAM \[[paper](https://ieeexplore.ieee.org/document/9093360)\], a technique to visualize and interpret features learnt by Convolutional Neural Networks (CNNs).
+Reproduction of Ablation-CAM \[[paper](https://ieeexplore.ieee.org/document/9093360)\], a technique to visualize and interpret features learnt by Convolutional Neural Networks (CNNs). Also check out my \[[critique report](https://drive.google.com/file/d/1Vnd6Wtkc5PaofB5MGtvgvyiqAJkQjOkc/view?usp=sharing)\]
 
 <p float="left">
   <img src="images/resnet50_channel_softmax_22-17_06-05-2021.png" alt="ResNet-50 localization maps on ImageNet" width="48%" text-align="center" />
